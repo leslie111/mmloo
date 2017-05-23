@@ -1,0 +1,327 @@
+#header {
+  width: 1222px;
+  height: 30px;
+}
+#header > .left {
+  float: left;
+  margin-left: 50px;
+}
+#header > .left span {
+  height: 30px;
+  line-height: 30px;
+  margin-right: 15px;
+}
+#header > .right {
+  float: right;
+}
+#header > .right > ul {
+  width: 500px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+#header > .right > ul > li {
+  line-height: 30px;
+  height: 30px;
+}
+#header > .right > ul > li a {
+  font-size: 12px;
+}
+#header > .right > ul > li i {
+  font-size: 16px;
+}
+#ad {
+  width: 1222px;
+  height: 70px;
+  background: url(MMLOO/05209687856823889.jpg) no-repeat;
+}
+#nav {
+  width: 1222px;
+  height: 157px;
+}
+#nav .nav-top {
+  width: 1222px;
+  height: 110px;
+  display: flex;
+}
+#nav .nav-top .logo {
+  width: 212px;
+  height: 75px;
+  margin-top: 25px;
+  margin-left: 30px;
+  background: url(MMLOO/05053060183653829.png) no-repeat;
+}
+#nav .nav-top .logo a h1 {
+  text-indent: -9999px;
+}
+#nav .nav-top .search {
+  margin: 20px 0 0 60px;
+  width: 500px;
+  height: 65px;
+}
+#nav .nav-top .search .search-top {
+  position: relative;
+  width: 500px;
+  height: 40px;
+}
+#nav .nav-top .search .search-top .txt {
+  width: 416px;
+  height: 36px;
+  border: 2px solid #d93600;
+}
+#nav .nav-top .search .search-top .btn {
+  position: absolute;
+  left: 416px;
+  width: 84px;
+  height: 40px;
+  border: 2px solid #d93600;
+  background-color: #d93600;
+  color: #fff;
+  font-size: 16px;
+}
+#nav .nav-top .search .search-bottom a {
+  font-size: 12px;
+  margin-right: 10px;
+}
+#nav .nav-top .search a:nth-child(1) {
+  color: red;
+}
+#nav .nav-top .search a:nth-child(2) {
+  color: red;
+}
+#nav .nav-top .search a:nth-child(3) {
+  color: red;
+}
+#nav .nav-top .search a:nth-child(4) {
+  color: red;
+}
+#nav .nav-top .renz {
+  width: 270px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 140px;
+}
+#nav .nav-top .renz div i {
+  font-size: 40px;
+  color: red;
+}
+#nav .nav-top .renz div span {
+  display: inline-block;
+  width: 26px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+}
+#nav .nav-bottom {
+  border-bottom: 2px solid red;
+  width: 1222px;
+  height: 46px;
+}
+#nav .nav-bottom div {
+  float: left;
+  width: 210px;
+  height: 46px;
+  background-color: #fe3c32;
+  margin-left: 33px;
+}
+#nav .nav-bottom div i {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 20px;
+}
+#nav .nav-bottom div a {
+  font-size: 18px;
+  line-height: 46px;
+  color: #fff;
+  margin-left: 10px;
+  font-weight: 900;
+}
+#nav .nav-bottom ul {
+  float: left;
+}
+#nav .nav-bottom ul li {
+  float: left;
+}
+#nav .nav-bottom ul li a {
+  display: block;
+  font-size: 20px;
+  height: 46px;
+  line-height: 46px;
+  margin: 0 22px;
+  color: #000;
+}
+#nav .nav-bottom ul li a:hover {
+  color: red;
+}
+#nav .nav-bottom ul li:nth-child(1) a {
+  color: red;
+}
+#banner {
+  width: 1222px;
+  height: 422px;
+}
+#banner .ban-left {
+  position: relative;
+  float: left;
+  width: 1004px;
+  height: 422px;
+}
+#banner .ban-left .pic {
+  position: absolute;
+  width: 1004px;
+  height: 422px;
+  overflow: hidden;
+}
+#banner .ban-left .pic li {
+  z-index: 0;
+  position: absolute;
+  width: 1004px;
+  height: 422px;
+}
+#banner .ban-left .pic li img {
+  position: absolute;
+  width: 1004px;
+  height: 422px;
+}
+#banner .ban-left .ban-nav {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 210px;
+  height: 422px;
+  margin-left: 33px;
+  background-color: #2c2c2c;
+}
+#banner .ban-left .ban-nav > ul {
+  width: 210px;
+  height: 422px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#banner .ban-left .ban-nav > ul li i {
+  font-size: 18px;
+  color: #fff;
+  margin-left: 20px;
+}
+#banner .ban-left .ban-nav > ul li a {
+  font-size: 14px;
+  line-height: 46px;
+  color: #fff;
+  margin-left: 10px;
+}
+#banner .ban-left .ban-bac {
+  z-index: 2;
+  position: relative;
+  float: left;
+  width: 761px;
+  height: 422px;
+}
+#banner .ban-left .ban-bac div {
+  width: 761px;
+  height: 380px;
+  position: relative;
+}
+#banner .ban-left .ban-bac div span {
+  z-index: 5;
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-size: 30px;
+  display: none;
+  cursor: pointer;
+}
+#banner .ban-left .ban-bac div .span-l {
+  left: 20px;
+  top: 167px;
+}
+#banner .ban-left .ban-bac div .span-r {
+  right: 20px;
+  top: 167px;
+}
+#banner .ban-left .ban-bac ul {
+  width: 761px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+}
+#banner .ban-left .ban-bac ul li {
+  width: 126px;
+  height: 42px;
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 42px;
+}
+#banner .ban-left .ban-bac ul li a {
+  color: #fff;
+  font-size: 12px;
+}
+#banner .ban-right {
+  float: left;
+  width: 218px;
+  height: 422px;
+}
+#banner .ban-right .ban-1 {
+  overflow: hidden;
+  border-bottom: 1px dashed #ccc;
+  width: 218px;
+  height: 69px;
+  background: url("images/aa_03.png") no-repeat 15px 15px;
+}
+#banner .ban-right .ban-1 p {
+  font-size: 12px;
+  line-height: 22px;
+  margin: 15px 0 0 74px;
+}
+#banner .ban-right .ban-2 {
+  width: 218px;
+  height: 40px;
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+#banner .ban-right .ban-2 a {
+  display: block;
+  width: 106px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+#banner .ban-right .ban-2 a:nth-child(1) {
+  border-right: 2px solid #ccc;
+}
+#banner .ban-right .ban-3 {
+  width: 218px;
+  height: 80px;
+}
+#banner .ban-right .ban-3 a {
+  font-size: 12px;
+  display: block;
+  margin: 10px 0 10px 5px;
+}
+#banner .ban-right .ban-4 {
+  width: 218px;
+  height: 90px;
+  display: flex;
+}
+#banner .ban-right .ban-4 div {
+  width: 74px;
+  height: 69px;
+  text-align: center;
+  padding-top: 21px;
+  border: 1px solid #ccc;
+}
+#banner .ban-right .ban-4 div i {
+  font-size: 20px;
+  color: red;
+}
+#banner .ban-right .ban-4 div p {
+  font-size: 12px;
+}
+#banner .ban-right .ban-5 {
+  width: 218px;
+  height: 130px;
+  background: url("images/aa_07.png") no-repeat;
+}
