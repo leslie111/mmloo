@@ -3,7 +3,8 @@
  */
 $(function () {
 	$(".ban-left").on("mouseenter",function () {
-		$("span").show();
+		$(".span-l").show();
+		$(".span-r").show();
 		var num=5;
 		$(".span-l").on("click",function () {
 		//	num++
@@ -46,6 +47,7 @@ $(function () {
 		
 	})
 	$(".ban-left").on("mouseleave",function () {
-		$("span").hide();
+		$(".span-l").hide();
+		$(".span-r").hide();
 	})
 })
