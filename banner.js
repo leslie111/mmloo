@@ -21,9 +21,12 @@ $(function () {
 				$(".pic>li").eq(num).css("z-index",1);
 				$(".pic>li").eq(num).fadeOut(500,function () {
 					num--;
-					$(".pic>li").eq(num).fadeIn(500)
+					$(".pic>li").css("z-index",0);
+					$(".pic>li").css("display","block");
 					$(".pic>li").eq(num).css("z-index",1);
+					$(".pic>li").eq(num).fadeIn(500);
 				})
+				
 			}else {
 				return false;
 			}
@@ -36,9 +39,13 @@ $(function () {
 				$(".pic>li").eq(num).css("z-index",1);
 				$(".pic>li").eq(num).fadeOut(500,function () {
 					num++;
-					$(".pic>li").eq(num).fadeIn(500)
+					$(".pic>li").css("z-index",0);
+					$(".pic>li").css("display","block")
 					$(".pic>li").eq(num).css("z-index",1);
+					$(".pic>li").eq(num).fadeIn(500)
+					
 				})
+				
 			}else {
 				return false;
 			}
@@ -49,5 +56,16 @@ $(function () {
 	$(".ban-left").on("mouseleave",function () {
 		$(".span-l").hide();
 		$(".span-r").hide();
+	});
+	
+	$(".uul>li").on("mouseenter",function () {
+	//	console.log($(this).index());
+		$(".pic>li").css("z-index",0);
+		$(".pic>li").eq($(this).index()).css("z-index",1);
+		$(this).css("background","rgba(0,0,0,0.5)").siblings()
+			.css("background","rgba(0,0,0,0.1)")
+	})
+	$(".uul>li").on("mouseleave",function () {
+		$(".uul>li").css("background","rgba(0,0,0,0.1)")
 	})
 })
