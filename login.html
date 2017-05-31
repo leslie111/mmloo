@@ -5,6 +5,8 @@
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="login.css">
     <link rel="stylesheet" type="text/css" href="reset.css">
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="denglu.js"></script>
 </head>
 <body>
 <div id="ad"></div>
@@ -23,17 +25,17 @@
         <h3>用户登录</h3>
         <div class="main-right-1">
             <i class="iconfont">&#xe62a;</i>
-            <input type="text" placeholder="手机号/会员名/邮箱"/>
+            <input type="text" placeholder="手机号/会员名/邮箱" id="txt"/>
         </div>
         <div class="main-right-2">
             <i class="iconfont">&#xe6d1;</i>
-            <input type="password"/>
+            <input type="password" id="pwd"/>
         </div>
-        <button>登 &nbsp;录</button>
+        <button id="btn">登 &nbsp;录</button>
         <a href="#">忘记密码？</a>
         <div class="main-right-3">
             <span>还不是本站会员？立即</span>
-            <button>注册</button>
+            <button id="btn2">注册</button>
         </div>
         <div class="main-right-4">
             <p>您可以用合作伙伴账号登录</p>

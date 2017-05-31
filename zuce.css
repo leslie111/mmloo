@@ -1,0 +1,124 @@
+#ad {
+  width: 100%;
+  height: 70px;
+  background: url(MMLOO/05209687856823889.jpg) no-repeat;
+}
+#eend {
+  width: 100%;
+  height: 100px;
+  padding-left: 30px;
+  text-align: center;
+}
+#eend a {
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+}
+#eend p {
+  font-size: 14px;
+  color: #666;
+}
+#eend span {
+  display: block;
+  width: 100px;
+  font-size: 18px;
+  height: 50px;
+  background-color: #fe3c32;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  margin-left: 560px;
+  margin-top: 30px;
+}
+#header {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+#header .right {
+  position: relative;
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+}
+#header .right .aa {
+  display: block;
+  width: 212px;
+  height: 75px;
+  margin-top: 25px;
+  background: url("MMLOO/05053060183653829.png") no-repeat;
+}
+#header .right .aa h1 {
+  text-indent: -999px;
+}
+#header .right .login {
+  color: #9c9c9c;
+  font-size: 24px;
+  position: absolute;
+  top: 23px;
+  left: 210px;
+}
+#header .right div {
+  position: absolute;
+  right: 0px;
+  bottom: 28px;
+}
+#header .right div a {
+  color: #27A9E3;
+}
+#main {
+  width: 1000px;
+  height: 523px;
+  margin: 20px auto;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1), 1px -2px 20px rgba(0, 0, 0, 0.1) inset;
+}
+#main .title {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #CCCCCC;
+}
+#main .title h2 {
+  font-size: 24px;
+  line-height: 50px;
+}
+#main .biao {
+  width: 400px;
+  height: 470px;
+  margin: 0 auto;
+  background-color: #F9F9F9;
+}
+#main .biao .txt {
+  margin: 20px 0;
+  width: 396px;
+  height: 40px;
+}
+#main .biao .yanz {
+  width: 150px;
+  height: 40px;
+}
+#main .biao .yz {
+  color: #27A9E3;
+}
+#main .biao .dx {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+}
+#main .biao #btn1 {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 150px;
+  height: 40px;
+}
+#main .biao a {
+  color: red;
+}
+#main .biao #btn2 {
+  background-color: red;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}

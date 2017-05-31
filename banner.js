@@ -19,16 +19,16 @@ $(function () {
 				$(".pic>li").css("z-index",0)
 				
 				$(".pic>li").eq(num).css("z-index",1);
-				$(".pic>li").eq(num).fadeOut(500,function () {
+		//		$(".pic>li").eq(num).fadeOut(500,function () {
 					num--;
 					$(".pic>li").css("z-index",0);
 					$(".pic>li").css("display","block");
 					$(".pic>li").eq(num).css("z-index",1);
-					$(".pic>li").eq(num).fadeIn(500);
-				})
+		//			$(".pic>li").eq(num).fadeIn(500);
+		//		})
 				
 			}else {
-				return false;
+				num=5;
 			}
 			
 			
@@ -37,19 +37,19 @@ $(function () {
 			if(num<5){
 				$(".pic>li").css("z-index",0);
 				$(".pic>li").eq(num).css("z-index",1);
-				$(".pic>li").eq(num).fadeOut(500,function () {
+		//		$(".pic>li").eq(num).fadeOut(500,function () {
 					num++;
 					$(".pic>li").css("z-index",0);
 					$(".pic>li").css("display","block")
 					$(".pic>li").eq(num).css("z-index",1);
-					$(".pic>li").eq(num).fadeIn(500)
-					
-				})
-				
+		//			$(".pic>li").eq(num).fadeIn(500)
+
+		//		})
+
 			}else {
-				return false;
+				num=0;
 			}
-			
+
 		})
 		
 	})
