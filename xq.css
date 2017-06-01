@@ -194,9 +194,21 @@
   height: 500px;
   position: relative;
 }
+#main .btm .btm-left .btm-image {
+  margin-left: 30px;
+  width: 360px;
+  height: 360px;
+  position: absolute;
+}
+#main .btm .btm-left .btm-image .smallArea {
+  z-index: 7;
+  background: rgba(200, 250, 200, 0.4);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 #main .btm .btm-left .btm-image img {
   z-index: 0;
-  margin-left: 30px;
   position: absolute;
   width: 360px;
   height: 360px;
@@ -207,7 +219,7 @@
 #main .btm .btm-left .point span {
   position: absolute;
   font-size: 30px;
-  z-index: 2;
+  z-index: 8;
   display: none;
   cursor: pointer;
 }
@@ -230,6 +242,21 @@
   float: left;
   width: 842px;
   height: 500px;
+}
+#main .btm .btm-right .bigArea {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  overflow: hidden;
+  display: none;
+}
+#main .btm .btm-right .bigArea img {
+  z-index: 10;
+  width: 720px;
+  height: 720px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 #main .btm .btm-right .btm-right-1 {
   height: 40px;

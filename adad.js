@@ -36,3 +36,8 @@ $(function () {
 			.siblings().css("display","none");
 	})
 })
+$(function () {
+	$("#hot>ul>li").on("click",function () {
+		window.location.href="详情页.html";
+	})
+})

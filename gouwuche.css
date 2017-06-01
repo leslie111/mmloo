@@ -221,12 +221,14 @@
   width: 150px;
 }
 #gouwuche .gwc ul li .gw4 a {
+  float: left;
   display: inline-block;
   width: 14px;
   height: 14px;
   border: 1px solid #CCCCCC;
 }
 #gouwuche .gwc ul li .gw4 input {
+  float: left;
   width: 30px;
   height: 14px;
   border-bottom: 1px solid #CCCCCC;
